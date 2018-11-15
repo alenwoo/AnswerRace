@@ -41,10 +41,10 @@ html,body {
 		<div class="from-wrap">
 			<h2>登录</h2>
 			<Form ref="loginData" :model="loginData" :rules="ruleValidate" :label-width="80">
-				<FormItem label="Account" prop="acct">
+				<FormItem label="帐号" prop="acct">
 		            <Input type="password" v-model="loginData.acct" placeholder="请输入账号"/>
 		        </FormItem>
-		        <FormItem label="Password" prop="pass">
+		        <FormItem label="密码" prop="pass">
 		            <Input type="password" v-model="loginData.pass" placeholder="请输入密码"/>
 		        </FormItem>
 		        <FormItem class="form-footer">
