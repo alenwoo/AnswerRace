@@ -57,6 +57,7 @@ html,body {
 </template>
 <script>
 export default {
+  name:'login',
   data () {
     return {
       loginData: {
